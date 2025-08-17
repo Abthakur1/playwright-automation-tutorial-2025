@@ -80,7 +80,7 @@ test("Working with multiple elements  -- verify the text by first , last , or nt
   await expect(page.locator("div.card-body a").last()).toHaveText("Blackberry");
 });
 
-test.only("Working with multiple elements  -- get the text of each elements", async ({
+test("Working with multiple elements  -- get the text of each elements", async ({
   page,
 }) => {
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
