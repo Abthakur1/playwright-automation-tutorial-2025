@@ -15,6 +15,8 @@ export default defineConfig({
   use: {
     browserName: 'chromium', // Use Chromium browser by default , can give firefox or webkit(for safari) as well
     headless: true, // Run tests in headful mode (visible browser), set to true for headless mode
+    screenshot: 'on',
+    trace:'retain-on-failure', // Save trace files for debugging on failure
   },
 });
 
