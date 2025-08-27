@@ -17,7 +17,7 @@
 
 const { test, expect } = require("@playwright/test");
 
-test.only("UI E2E Test - ecommerce", async ({ page }) => {
+test("UI E2E Test - ecommerce", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/client/#/auth/login");
   await page.locator("#userEmail").fill("absk.cts@gmail.com");
   await page.locator("#userPassword").fill("Automation@2025");
