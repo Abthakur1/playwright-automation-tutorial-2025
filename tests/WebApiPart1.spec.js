@@ -20,7 +20,7 @@ test.beforeAll(async () => {
   token = loginResponseJson.token;
 });
 
-test.only("Web API Part 1 - without login in ui using the token from local storage", async ({
+test("Web API Part 1 - without login in ui using the token from local storage", async ({
   page,
 }) => {
   page.addInitScript((value) => {
