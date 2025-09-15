@@ -1,20 +1,3 @@
-//1.Goto https://rahulshettyacademy.com/client
-//2.sign in
-//3.select the product IPHONE 13 PRO dynamically
-//4.Click add to cart
-//5.Go to cart and verify that the same item which you added is showing into the my cart.
-//6.Checkout
-//7.Verify that the same email id is shown on Shipping Information.
-//8.select country in the dynamic dropdown
-//9.Apply coupon "rahulshettyacademy"
-//10.Verify the coupon applied successfully.
-//11.Place order
-// 12.Verify the message "Thankyou for the order."
-// 13. capture order id.
-// 14. Go to order history page.
-// 15. Check where is that order presents with order id.
-// 16. Once found go and view the order and verify
-
 const { test, expect } = require("@playwright/test");
 const { LoginPage } = require("../pageObjects/LoginPage");
 const { DashBoardPage } = require("../pageObjects/DashBoardPage");
